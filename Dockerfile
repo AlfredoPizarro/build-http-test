@@ -1,4 +1,4 @@
-FROM registry.redhat.io/rhscl/httpd-24-rhel7
+FROM registry.access.redhat.com/ubi7/ubi:7.9-901
 
 # Add application sources
 ADD index.html /var/www/html/index.html
